@@ -56,12 +56,12 @@ EOF
 
 ## Usage
 ```bash
-python3 ssh-brute-forcer.py <target-ip> --userlist usernames.txt --wordlist wordlist.txt --delay 2
+python3 ssh-brute-force.py <target-ip> --userlist usernames.txt --wordlist wordlist.txt --delay 2
 ```
 
 Example:
 ```bash
-python3 ssh-brute-forcer.py 192.168.10.7 --userlist usernames.txt --wordlist wordlist.txt --delay 2
+python3 ssh-brute-force.py 192.168.10.7 --userlist usernames.txt --wordlist wordlist.txt --delay 2
 ```
 
 ## How It Works
@@ -110,7 +110,7 @@ Usernames: 10  |  Passwords: 9  |  Total combinations: 90
 
 ## Project Structure
 ```
-04-ssh-bruteforce/
+ssh-bruteforce/
 ├── README.md
 ├── ssh-brute-forcer.py
 ├── usernames.txt
