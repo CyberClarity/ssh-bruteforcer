@@ -1,0 +1,11 @@
+root
+admin
+administrator
+manas
+user
+ubuntu
+kali
+msfadmin
+test
+guest
+manas
